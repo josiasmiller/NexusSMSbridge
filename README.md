@@ -4,7 +4,7 @@ A complete SMS Bridge system that connects an Android phone to a web-based messa
 
 ## Get Started
 
-👉 **Go to [https://sms-bridge-jmtdi.devpush.app/](https://sms-bridge-jmtdi.devpush.app/)**
+👉 **Go to [https://sms-bridge-jmtdi.devpush.app/](https://sms-bridge-jmtdi.devpush.app/)** (Recommended)
 
 The builder will walk you through three steps:
 
@@ -23,13 +23,13 @@ No coding required.
 If you want to run the builder yourself instead of using the hosted version:
 
 ```bash
-git clone https://github.com/JMTDI/sms-bridge
+git clone https://github.com/JMTDI/nexussmsbridge
 cd sms-bridge
 pip install -r requirements.txt
 python builder.py
 ```
 
-Open **http://localhost:5000** in your browser.
+Open **http://localhost:8000** in your browser.
 
 ## Architecture
 
