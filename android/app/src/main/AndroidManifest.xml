@@ -8,6 +8,8 @@
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
     <uses-permission android:name="android.permission.READ_MMS" />
     <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <!--Sonim Permission-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <!-- Contacts -->
     <uses-permission android:name="android.permission.READ_CONTACTS" />
