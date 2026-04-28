@@ -1,9 +1,14 @@
 # NexusBridge
 A complete SMS Bridge system that connects an Sonim Dumb phone to a web-based messaging UI via a WebSocket relay server.
 
+Roadmap:
+1. Make connection screen dpad compatible also.
+2. Add option to start a new conversation directly from the index.html
+3. Add media sending options.
+
 ## Get Started
 
-👉 **Go to [https://sms-bridge-jmtdi.devpush.app/](https://sms-bridge-jmtdi.devpush.app/)** (Recommended)
+👉 **Go to build** (Recommended). No hosted version available yet.
 
 The builder will walk you through three steps:
 
