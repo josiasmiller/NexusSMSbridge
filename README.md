@@ -12,7 +12,7 @@ The builder will walk you through three steps:
 3. **Build your app** — the builder generates and downloads a zip containing:
    - `nexusbridge.apk` — ready-to-install Android app
    - `index.html` — web messaging UI, pre-configured for your server
-   - 
+     
 4. Run the follow command to grant permission.
 ```bash
  adb shell pm grant com.nexusbridge.smsbridge android.permission.READ_PHONE_STATE
@@ -28,7 +28,7 @@ If you want to run the builder yourself instead of using the hosted version:
 
 ```bash
 git clone https://github.com/JMTDI/nexussmsbridge
-cd nexussmsbridge
+cd NexusSMSbridge
 pip install -r requirements.txt
 python builder.py
 ```
