@@ -1,5 +1,5 @@
 # NexusBridge
-A complete SMS Bridge system that connects an Android phone to a web-based messaging UI via a WebSocket relay server.
+A complete SMS Bridge system that connects an Sonim Dumb phone to a web-based messaging UI via a WebSocket relay server.
 
 ## Get Started
 
@@ -12,6 +12,11 @@ The builder will walk you through three steps:
 3. **Build your app** — the builder generates and downloads a zip containing:
    - `nexusbridge.apk` — ready-to-install Android app
    - `index.html` — web messaging UI, pre-configured for your server
+   - 
+4. Run the follow command to grant permission.
+```bash
+ adb shell pm grant com.nexusbridge.smsbridge android.permission.READ_PHONE_STATE
+ ```
 
 No coding required.
 
