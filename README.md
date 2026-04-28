@@ -6,6 +6,11 @@ Roadmap:
 2. Add option to start a new conversation directly from the index.html
 3. Add media sending options.
 
+
+Tested Devices:
+1. Sonim XP3800
+2. 
+
 ## Get Started
 
 👉 **Go to build** (Recommended). No hosted version available yet.
