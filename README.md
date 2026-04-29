@@ -13,7 +13,21 @@ Tested Devices:
 
 ## Get Started
 
-👉 **Go to build** (Recommended). No hosted version available yet.
+No hosted builder available yet. You will need to selfhost builder.
+
+## Self-Hosting the Builder
+
+To run the builder on linux. 
+
+```bash
+git clone https://github.com/JMTDI/nexussmsbridge
+cd NexusSMSbridge
+pip install -r requirements.txt
+python builder.py
+```
+
+Open **http://localhost:8000** in your browser.
+
 
 The builder will walk you through three steps:
 
@@ -31,19 +45,6 @@ The builder will walk you through three steps:
 No coding required.
 
 ---
-
-## Self-Hosting the Builder
-
-If you want to run the builder yourself instead of using the hosted version:
-
-```bash
-git clone https://github.com/JMTDI/nexussmsbridge
-cd NexusSMSbridge
-pip install -r requirements.txt
-python builder.py
-```
-
-Open **http://localhost:8000** in your browser.
 
 ## Architecture
 
